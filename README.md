@@ -9,8 +9,10 @@ In this phase, we run an off-the-shelf model of the Position Map Regression Netw
 ## Instructions to run the code
 - Firstly please download the model for landmarks model for Phase 1 from [GoogleDrive] https://drive.google.com/file/d/1tY3nw20LgUbknVx2AMTwLG6QNZG93E1H/view?usp=sharing and put it into Code/Phase1
 - Then, download the PRN trained model from [GoogleDrive] https://drive.google.com/file/d/1UoE-XuW1SDLUjZmJPkIZ1MLxvQFgmTFH/view, and put it into Code/Phase2/Data/net-data
+
 The final script is split into two parts : Wrapper_P1.py and Wrapper_P2.py
 Wrapper_P1.py contains the code belonging to Phase 1 (Triangulation and Thin Plate Spline methods) and Wrapper_P2.py contains the code for Phase 2 (PRNet model).
+
 To execute Phase 1:
 * cd to the directory where the package is located 
 * Enter the following into the terminal: python Wrapper_P1.py InputFilePath _ InputFileName _ RefFileName _ Method _ SaveFilePath _
