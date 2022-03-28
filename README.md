@@ -1,5 +1,5 @@
 # FaceSwap
-The aim of this project is to implement an end-to-end pipeline to swap faces in a video just like Snapchat’s face swap filter or this face swap website.
+The aim of this project is to implement an end-to-end pipeline to swap faces in a video just like Snapchat’s face swap filter.
 ## Phase 1: Traditional Approach 
 The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods.
 
